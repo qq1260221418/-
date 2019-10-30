@@ -1,0 +1,49 @@
+.float_1 div:nth-child(1) {
+    float: left;
+    width: 10%;
+}
+
+.float_1 div:nth-child(2) {
+    float: left;
+    width: 10%;
+}
+
+.float_2 div:nth-child(1) {
+    float: left;
+    width: 10%;
+}
+
+.float_2 div:nth-child(2) {
+    float: left;
+    width: 15%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.ability {
+    line-height: 5px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    width: 8%;
+    margin-right: 2%;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #65a5fa;
+}
+
+.info {
+    width: 90%;
+}
