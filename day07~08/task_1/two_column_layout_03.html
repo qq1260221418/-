@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        /* Float */
+        /* .right {
+            float: right;
+            width: 200px;
+            height: 100px;
+            background-color: #faa;
+        }
+
+        .left {
+            height: 100px;
+            background-color: #aff;
+            margin-right: 200px;
+        } */
+
+        /* Position */
+        /* .right {
+            position: absolute;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            background-color: #faa;
+        }
+
+        .left {
+            height: 100px;
+            background-color: #aff;
+            margin-right: 200px;
+        } */
+
+        /* Flexbox */
+        /* 此方法需要.left在前，.right在后 */
+        .container {
+            display: flex;
+        }
+
+        .left {
+            flex: 1;
+            height: 100px;
+            background-color: #aff;
+        }
+
+        .right {
+            width: 200px;
+            height: 100px;
+            background-color: #faa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">左侧自适应</div>
+        <div class="right">右侧固定</div>
+    </div>
+</body>
+
+</html>
