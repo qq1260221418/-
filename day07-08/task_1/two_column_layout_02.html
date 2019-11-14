@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        /* Float */
+        /* .left {
+            float: left;
+            width: 200px;
+            height: 100px;
+            background-color: #aff;
+        }
+
+        .right {
+            margin-left: 200px;
+            height: 100px;
+            background-color: #faa;
+        } */
+
+        /* Position */
+        /* .left {
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            background-color: #aff;
+        }
+
+        .right {
+            margin-left: 200px;
+            height: 100px;
+            background-color: #faa;
+        } */
+
+        /* Flexbox */
+        .container {
+            display: flex;
+        }
+
+        .left {
+            width: 200px;
+            height: 100px;
+            background-color: #aff;
+        }
+
+        .right {
+            flex: 1;
+            height: 100px;
+            background-color: #faa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">左侧固定</div>
+        <div class="right">右侧自适应</div>
+    </div>
+</body>
+
+</html>
