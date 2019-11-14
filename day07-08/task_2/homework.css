@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+}
+
+.header .container,
+.main .container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+}
+
+.container h2 {
+    padding: 10px;
+    color: #fff;
+}
+
+.container ul {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.container ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.container ul li a {
+    margin-right: 15px;
+    color: #fff;
+}
+
+.main .banner {
+    height: 200px;
+    background-color: #6b3;
+}
+
+.main .banner_btn {
+    position: absolute;
+    top: 160px;
+    right: 0;
+}
+
+.banner_btn span {
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #b2dd99;
+}
+
+.banner_btn span a {
+    color: #000;
+    text-decoration: none;
+}
+
+.banner_btn span.active {
+    padding-top: 25px;
+    background-color: #e0f1d6;
+}
+
+.mainNav {
+    position: relative;
+    height: 80px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.mainNav .container {
+    top: 45px;
+}
+
+.mainNav .subNav {
+    display: inline;
+    padding: 15px 20px;
+    font-size: 14px;
+    border: 1px solid #d3d3d3;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.mainNav .subNav_1 {
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.mainNav .subNav_2 {
+    background-color: #eee;
+}
+
+.content .container {
+    margin: 5px auto;
+}
+
+.content .flex_box {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.content .flex_box div {
+    padding: 80px;
+    margin: 5px;
+    flex: 0px; /* 关键代码 */
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+
+.content .flex_box span {
+    font-size: 14px;
+}
+
+.footer {
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: #666;
+}
